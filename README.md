@@ -4,11 +4,11 @@
 
 본 프로젝트는 AI 교육 현장에서 반복적으로 소요되는 커리큘럼 기획, 최신 기술 트렌드 서칭, 파트별 전문 교재 집필 및 영구 아카이브(CRUD) 과정을 **멀티 에이전트 협업 구조**로 완전 자동화한 온프레미스 프로덕트입니다. 
 
-도슨티(Docenty)의 실무 환경에서 요구하는 **생산성 향상 및 AI 툴 활용 역량(Vibe Coding)**을 증명하고, 시스템의 무결성을 객관적으로 검증하기 위한 **평가 하네스(Evaluation Harness)**를 함께 구축하였습니다.
+시스템의 무결성을 객관적으로 검증하기 위한 **평가 하네스(Evaluation Harness)**를 함께 구축하였습니다.
 
 ---
 
-## 🛠️ 주요 기술 스택 (Tech Stack)
+## 🛠️ 주요 기술 스택
 
 * **Orchestration & Workflow:** `LangGraph`, `LangChain`
 * **Local LLM Engine (Ollama):** 
@@ -54,7 +54,7 @@
 
 ---
 
-## 📊 평가 하네스 (Evaluation Harness) 및 검증 결과
+## 📊 평가 하네스 및 검증 결과
 
 시스템의 안정성과 파이프라인 무결성을 객관적으로 증명하기 위해 독립적인 평가 스크립트(`evaluation_harness.py`)를 구현하였습니다.
 
@@ -72,7 +72,7 @@ python evaluation_harness.py
 
 ---
 
-## 🚀 프로젝트 실행 방법 (Quick Start)
+## 🚀 프로젝트 실행 방법
 
 ### 1. 환경 변수 설정 (`.env`)
 프로젝트 루트 디렉토리에 `.env` 파일을 생성하고 아래 환경 변수를 설정합니다.
